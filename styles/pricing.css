@@ -3,6 +3,7 @@
 
   & header {
     text-align: center;
+    margin-bottom: 2rem;
   }
 
   & .cards {
@@ -31,6 +32,7 @@
 
   & .btn {
     width: 100%;
+    
   }
 
   & .separator {
@@ -45,7 +47,7 @@
     padding-left: 2rem;
   }
 
-  & ul+small {
+  & ul + small {
     display: block;
     margin-top: 1.5rem;
     font-size: 0.875rem;
@@ -56,6 +58,7 @@
     position: relative;
 
     & .card {
+      padding-top: 4.25rem;
 
       & > span {
         position: absolute;
@@ -71,7 +74,7 @@
         border-top-left-radius: 1.5rem;
         border-bottom-right-radius: 1.5rem;
 
-        font: 600 var-(-fs-sm) var(--fontInter);
+        font: 600 var(--fs-sm) var(--fontInter);
         text-transform: uppercase;
         letter-spacing: 0.08em;
         color: var(--bg-color);
